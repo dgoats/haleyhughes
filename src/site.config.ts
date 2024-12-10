@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property, found in src/components/BaseHead.astro L:42
 	ogLocale: "en_GB",
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
-	title: "Haley J. Hughes",
+	title: "Haley Hughes",
 };
 
 // Used to generate links in both the Header & Footer.
@@ -38,8 +38,8 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Works",
 	},
 	{
-		path: "/notes/",
-		title: "Notes",
+		path: "/news/",
+		title: "News",
 	},
 ];
 
